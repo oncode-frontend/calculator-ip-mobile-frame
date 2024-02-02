@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="shortcut icon" href="./assets/oncodeLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body onload="startTime()">
+    <div class="container">
+        <div class="area">
+            <div class="popup">
+                <div id="clock"></div>
+            </div>
+            <div class="input">
+                <span class="operation"></span>
+                <input type="text" value="" disabled>
+            </div>
+            <div class="operations-content">
+                <div class="row">
+                    <span class="ac">AC</span>
+                    <span class="plus-minus"><i class="fa-solid fa-plus-minus"></i></span>
+                    <span class="divideRemaining">%</span>
+                    <span class="divide"><i class="fa-solid fa-divide"></i></span>
+                </div>
+                <div class="row">
+                    <span class="seven">7</span>
+                    <span class="eight">8</span>
+                    <span class="nine">9</span>
+                    <span class="xmark"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <div class="row">
+                    <span class="four">4</span>
+                    <span class="five">5</span>
+                    <span class="six">6</span>
+                    <span class="minus">-</span>
+                </div>
+                <div class="row">
+                    <span class="one">1</span>
+                    <span class="two">2</span>
+                    <span class="three">3</span>
+                    <span class="plus">+</span>
+                </div>
+                <div class="row">
+                    <span class="zero">0</span>
+                    <span class="dot">.</span>
+                    <span class="equal">=</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./calc.js"></script>
+</body>
+</html>
