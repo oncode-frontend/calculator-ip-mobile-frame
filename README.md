@@ -1,6 +1,6 @@
 # Simple calculator style in mobile frame
 
-## 🔴 [Demo](https://ghasemizade.github.io/iphone_calculator/)
+## 🔴 [Demo](https://oncode-frontend.github.io/calculator-ip-mobile-frame/)
 
 clone repository
 ```
